@@ -19,7 +19,53 @@
   font-style: normal;
 }
 
+.header {
+  border: 1px solid;
+  padding-top: 50px;
+}
+
+.header .container {
+  display: -ms-grid;
+  display: grid;
+}
+
+.header .container .header__logo {
+  max-width: 240px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .header .container .header__logo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   font-family: 'Poppins', 'OpenSans', sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  border: 1px solid;
+  background-color: #674baf;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 /*# sourceMappingURL=style.css.map */

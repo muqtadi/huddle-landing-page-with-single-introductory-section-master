@@ -1,0 +1,27 @@
+.header{
+  border: 1px solid;
+  padding-top: 50px;
+
+  .container{
+    display: grid;
+
+    .header__logo{
+      max-width: 240px;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+}
+
+@media(min-width: 1024px){
+  .header {
+      .container {
+        .header__logo {
+          max-width: 200px;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+}
